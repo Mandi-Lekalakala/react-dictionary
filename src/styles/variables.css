@@ -1,11 +1,14 @@
 :root {
-  --navy: #0b1f3a;
-  --navy-light: #16335c;
-  --amber: #f5a623;
-  --amber-dark: #d98c0f;
+  --navy: #0f1b4c;
+  --navy-light: #1e2e78;
+  --navy-border: #3a4a8f;
+  --amber: #ffb84d;
+  --amber-dark: #ffb84d;
   --bg: #f7f8fa;
-  --text: #1a2233;
+  --text: #0f1b4c;
   --muted: #6b7587;
+  --on-navy-muted: #c9d1f5;
   --radius: 12px;
-  --font: "Inter", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
+  --font-heading: "Fraunces", serif;
 }

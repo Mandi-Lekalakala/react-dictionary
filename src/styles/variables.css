@@ -1,0 +1,11 @@
+:root {
+  --navy: #0b1f3a;
+  --navy-light: #16335c;
+  --amber: #f5a623;
+  --amber-dark: #d98c0f;
+  --bg: #f7f8fa;
+  --text: #1a2233;
+  --muted: #6b7587;
+  --radius: 12px;
+  --font: "Inter", system-ui, sans-serif;
+}

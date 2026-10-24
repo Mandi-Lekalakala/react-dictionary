@@ -1,3 +1,15 @@
+import SearchBar from "../components/SearchBar";
+
+import "../styles/home.css";
+
 export default function Home() {
-  return <h1>Home</h1>;
+  return (
+    <section className="hero">
+      <h1 className="here-title">Every word, explained!</h1>
+      <p className="hero-sub">
+        Definitions, pronounciation, synonyms and more.
+      </p>
+      <SearchBar />
+    </section>
+  );
 }

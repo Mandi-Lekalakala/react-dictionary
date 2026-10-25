@@ -1,0 +1,20 @@
+.hero {
+  background: var(--navy);
+  color: #fff;
+  text-align: center;
+  padding: 14px 24px 70px;
+}
+
+.hero-title {
+  font-family: var(--font-heading);
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-top: 50px;
+}
+
+.hero-sub {
+  margin-top: 14px;
+  font-size: 17px;
+  color: var(--on-navy-muted);
+}

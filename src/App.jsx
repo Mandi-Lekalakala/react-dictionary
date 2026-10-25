@@ -15,7 +15,7 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/word/:term" element={<WordResult />} />
         <Route path="/word-of-the-day" element={<WordOfTheDay />} />
-        <Route path="/favorites" element={<Favourites />} />
+        <Route path="/favourites" element={<Favourites />} />
         <Route path="/quiz" element={<Quiz />} />
         <Route path="*" element={<NotFound />} />
       </Routes>

@@ -1,5 +1,5 @@
+import PopularSearches from "../components/PopularSearches";
 import SearchBar from "../components/SearchBar";
-
 import "../styles/home.css";
 
 export default function Home() {
@@ -10,6 +10,7 @@ export default function Home() {
         Definitions, pronounciation, synonyms and more.
       </p>
       <SearchBar />
+      <PopularSearches />
     </section>
   );
 }

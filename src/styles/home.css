@@ -18,3 +18,30 @@
   font-size: 17px;
   color: var(--on-navy-muted);
 }
+
+.popular {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 30px;
+  font-size: 13px;
+}
+
+.popular-label {
+  color: var(--on-navy-muted);
+  font-size: 15px;
+}
+
+.chip {
+  padding: 10px 18px;
+  border-radius: 999px;
+  background: var(--navy-light);
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.chip:hover {
+  background: var(--navy-border);
+}

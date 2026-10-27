@@ -6,14 +6,14 @@
 
 .quiz-promo-title {
   font-family: var(--font-heading);
-  font-size: 1.15rem;
+  font-size: 18px;
   font-weight: 600;
   color: #ffffff;
 }
 
 .quiz-promo-text {
   margin-top: 8px;
-  font-size: 0.85rem;
+  font-size: 14px;
   line-height: 1.5;
   color: var(--on-navy-muted);
 }
@@ -25,7 +25,7 @@
   border-radius: 999px;
   background: var(--amber);
   color: var(--navy);
-  font-size: 0.85rem;
+  font-size: 14px;
   font-weight: 700;
 }
 

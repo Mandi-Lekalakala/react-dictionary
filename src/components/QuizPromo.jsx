@@ -7,7 +7,7 @@ export default function QuizPromo() {
     <div className="quiz-promo">
       <h2 className="quiz-promo-title">Quiz Yourself</h2>
       <p className="quiz-promo-text">
-        Turn your saved words into flashcards....
+        Test your vocabulary with flashcards and multiple-choice questions.
       </p>
       <Link to="/quiz" className="quiz-promo-btn">
         Start a quiz

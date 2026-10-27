@@ -9,7 +9,6 @@ export default function Navbar() {
       </Link>
       <nav className="nav-links">
         <NavLink to="/word-of-the-day">Word Of The Day</NavLink>
-        <NavLink to="/favourites">Favourites</NavLink>
         <NavLink to="/quiz">Quiz</NavLink>
         <button className="navbar-theme" aria-label="Switch to dark mode">
           <svg

@@ -15,7 +15,7 @@ export default function SearchBar() {
     event.preventDefault();
     const term = query.trim();
     navigate(`/word/${encodeURIComponent(term)}`);
-
+    // documentatio: https://dictionaryapi.dev/
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${encodeURIComponent(term)}`;
     console.log(apiUrl);
     axios.get(apiUrl).then(handleResponse);

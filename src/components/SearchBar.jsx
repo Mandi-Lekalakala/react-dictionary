@@ -1,19 +1,28 @@
 import { useState } from "react";
+import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import "../styles/searchbar.css";
 
 export default function SearchBar() {
   const [query, setQuery] = useState("");
   const navigate = useNavigate();
+
+  function handleResponse(response) {
+    console.log(response.data[0].meanings[0].definitions);
+  }
+
   function handleSubmit(event) {
     event.preventDefault();
     const term = query.trim();
     navigate(`/word/${encodeURIComponent(term)}`);
+
+    let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${encodeURIComponent(term)}`;
+    console.log(apiUrl);
+    axios.get(apiUrl).then(handleResponse);
   }
 
   function handleChange(event) {
     setQuery(event.target.value);
-    console.log(event);
   }
 
   return (

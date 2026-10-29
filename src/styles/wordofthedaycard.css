@@ -30,19 +30,6 @@
   color: var(--navy);
 }
 
-.wotd-play {
-  width: 36px;
-  height: 36px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: none;
-  border-radius: 50%;
-  background: var(--navy);
-  color: #fff;
-  cursor: pointer;
-}
-
 .wotd-meta {
   display: flex;
   align-items: center;

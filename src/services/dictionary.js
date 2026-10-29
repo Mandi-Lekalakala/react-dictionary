@@ -16,17 +16,8 @@ function hasText(item) {
   return item.text;
 }
 
-function hasAudio(item) {
-  return item.audio;
-}
-
 export function getPhonetic(entry) {
   if (entry.phonetic) return entry.phonetic;
   const item = entry.phonetics.find(hasText);
   return item ? item.text : "";
-}
-
-export function getAudio(entry) {
-  const item = entry.phonetics.find(hasAudio);
-  return item ? item.audio : "";
 }

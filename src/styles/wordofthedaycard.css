@@ -1,0 +1,89 @@
+.wotd {
+  background: #fff;
+  border: 1px solid #e8e2d4;
+  border-radius: 16px;
+  padding: 28px 32px;
+}
+
+.wotd-label {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.wotd-date {
+  font-weight: 500;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.wotd-word {
+  margin-top: 16px;
+  font-family: var(--font-heading);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--navy);
+}
+
+.wotd-play {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 50%;
+  background: var(--navy);
+  color: #fff;
+  cursor: pointer;
+}
+
+.wotd-meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 12px;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.wotd-pos {
+  font-style: italic;
+}
+
+.wotd-definition {
+  margin-top: 18px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.wotd-example {
+  margin-top: 8px;
+  font-style: italic;
+  color: var(--muted);
+}
+
+.wotd-link {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 999px;
+  background: var(--amber);
+  color: var(--navy);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.wotd-link:hover {
+  filter: brightness(0.95);
+}
+
+.wotd-status {
+  margin-top: 12px;
+  color: var(--muted);
+}

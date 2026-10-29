@@ -1,6 +1,7 @@
 import PopularSearches from "../components/PopularSearches";
 import QuizPromo from "../components/QuizPromo";
 import SearchBar from "../components/SearchBar";
+import WordOfTheDayCard from "../components/WordOfTheDayCard";
 import "../styles/home.css";
 
 export default function Home() {
@@ -16,6 +17,9 @@ export default function Home() {
       </section>
 
       <div className="home-grid">
+        <section className="home-main">
+          <WordOfTheDayCard />
+        </section>
         <aside className="home-side">
           <QuizPromo />
         </aside>

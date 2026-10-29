@@ -2,13 +2,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 18px 50px;
+  padding: 18px 30px;
   background: var(--navy);
 }
 
 .navbar-logo {
   font-family: var(--font-heading);
-  font-size: 28px;
+  font-size: 26px;
   font-weight: 600;
   color: #ffffff;
 }
